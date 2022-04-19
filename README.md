@@ -50,7 +50,7 @@ module.exports = {
 @tailwind utilities;
 ```
 
-- Lancer **npm tailwind -i ./asset/styles/app.css -o ./public/build/app.css --watch**
+- Lancer **npx tailwindcss -i assets/styles/app.css -o public/build/app.css --watch**
 - Lancer le server symfony : **symfony serve -d**
 - Pour la mise en prod faire un **npm run build**
 
